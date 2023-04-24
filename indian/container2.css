@@ -1,0 +1,161 @@
+#container2{
+    /* margin: 50px; */
+     /* background-color: aqua; */
+     /* background-color: rgba(255, 142, 28, 0.5); */
+     /* background-color: #baffb8; */
+     display: flex;
+     justify-content: space-around;
+ }
+ .c2{
+     display: flex;
+     justify-content: space-around;
+ }
+ .c21{
+     background-color: rgb(252, 252, 255);
+     /* border: 50px; */
+     /* border: 1px solid black; */
+     width: 300px;
+     height: 370px;
+     margin: 30px;
+ }
+ .c21a{
+     margin: 20px;
+     contain: content;
+ }
+ .c21a img{
+     padding: 10px;
+     width: 240px;
+     height: 160px;
+     border-radius: 15px;
+     transition: transform 0.2s;
+ }
+ .c21:hover .c21a img{
+     /* border: 1px solid black; */
+     transform: scale(1.1);
+ }
+ .c21:hover{
+     cursor: pointer;
+     box-shadow: 0px 0px 15px 3px rgb(210, 206, 206);
+ }
+ #horizontal-line{
+     margin-left: 30px;
+     margin-right: 30px;
+ }
+ .box-c21{
+     padding-left: 30px;
+     font-size: large;
+ }
+ 
+ 
+ 
+ /* C12 */
+ .c22{
+     background-color: rgb(252, 252, 255);
+     /* border: 1px solid black; */
+     width: 300px;
+     height: 350px;
+     margin: 30px;
+ }
+ .c22a{
+     margin: 20px;
+     contain: content;
+ }
+ .c22a img{
+     padding: 10px;
+     width: 240px;
+     height: 160px;
+     border-radius: 15px;
+     transition: transform 0.2s;
+ }
+ .c22:hover .c22a img{
+     /* border: 1px solid black; */
+     transform: scale(1.1);
+ }
+ .c22:hover{
+   box-shadow: 0px 0px 15px 3px rgb(210, 206, 206);
+     cursor: pointer;
+ }
+ #horizontal-line{
+     margin-left: 30px;
+     margin-right: 30px;
+ }
+ .box-c22{
+     padding-left: 30px;
+     font-size: large;
+ }
+ 
+ 
+ 
+ /* c13 */
+ 
+ .c23{
+     background-color: rgb(252, 252, 255);
+     width: 300px;
+     height: 350px;
+     margin: 30px;
+ }
+ .c23a{
+     margin: 20px;
+     contain: content;
+ }
+ .c23a img{
+     padding: 10px;
+     width: 240px;
+     height: 160px;
+     border-radius: 15px;
+     transition: transform 0.2s;
+ }
+ .c23:hover .c23a img{
+     /* border: 1px solid black; */
+     transform: scale(1.1);
+ }
+ .c23:hover{
+    box-shadow: 0px 0px 15px 3px rgb(210, 206, 206);
+     cursor: pointer;
+ }
+ #horizontal-line{
+     margin-left: 30px;
+     margin-right: 30px;
+ }
+ .box-c23{
+     padding-left: 30px;
+     font-size: large;
+ }
+ 
+ 
+ /* c14 */
+ .c24{
+     background-color: rgb(252, 252, 255);
+     width: 300px;
+     height: 350px;
+     margin: 30px;
+ }
+ .c24a{
+     margin: 20px;
+     contain: content;
+ }
+ .c24a img{
+     padding: 10px;
+     width: 240px;
+     height: 160px;
+     border-radius: 15px;
+     transition: transform 0.2s;
+ }
+ .c24:hover .c24a img{
+     /* border: 1px solid black; */
+     transform: scale(1.1);
+ }
+ .c24:hover{
+    box-shadow: 0px 0px 15px 3px rgb(210, 206, 206);
+     cursor: pointer;
+ }
+ #horizontal-line{
+     margin-left: 30px;
+     margin-right: 30px;
+ }
+ .box-c24{
+     padding-left: 30px;
+     font-size: large;
+ }
+ 
+ 

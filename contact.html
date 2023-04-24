@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="logo4.png" alt="My image">
+            </div>
+    
+            <ul>
+                <li class="item"><a href="./index.html">Home</a></li>
+                <button id="scroll-button" >
+                    <li class="item" onclick="scrollToSection()">Services</li>
+                </button>
+                <li class="item"><a href="">About Us</a></li>
+                <li class="item"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contact-container-box" class="uni-padding">
+        <div id="content-box-contact" class="uni-padding">
+            <div id="content-box-contact-div1">
+                <h1>Lets talk about everything!</h1>
+                <img id="logo" src="logo4.png"  alt=""> <br>
+                <h2>Feel free to ask us anything about @mydabba!</h2>
+                <br>
+                <p style="font-size: larger;">Have doubt or suggestion to make? <br> Feel free to ask anything. If you have any suggestions, please let us know. Your suggestions are highly appreciated. We appreciate your time and try hard to reply to every single message posted here! Keep dropping your priceless opinions.</p>
+            </div>
+            <div id="content-box-contact-div2">
+                <form action="thanks.html" id="contact-form">
+                    <div>
+                        <label for="name">FULL NAME</label>
+                        <input type="text" id="name"  required>
+                    </div>
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="phone">PHONE</label>
+                        <input type="tel" maxlength="10" id="phone" required> 
+                    </div>
+                    <div> 
+                        <label for="message">MESSAGE</label>
+                        <textarea name="" id="message" cols="30" rows="9" required></textarea >
+                    </div>
+                    <div>
+                        <a href="thanks.html">
+                            <button type="submit" id="contact-submit">
+                                Send Message
+                            </button>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script>
+        // const nextpage = document.querySelector('#contact-submit');
+        // nextpage.addEventListener('click', () => {
+        //     window.location.href = 'thanks.html';
+        // })
+        function mynewfunction(){
+            window.location.href = 'thanks.html';
+        }
+    </script>
+    <!-- <script>
+        function myfun(){
+            document.getElementById('name').("box-shadow: 0px 0px 15px 3px rgb(210, 206, 206)");
+        }
+    </script> -->
+</body>
+</html>

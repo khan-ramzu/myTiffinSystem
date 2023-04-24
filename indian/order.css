@@ -1,0 +1,55 @@
+.rating-c11{
+    display: flex;
+    justify-content: space-between;
+     margin-top: 5px;
+     margin-left: 30px;
+     padding: 1px 5px;
+     color: white;
+     height: 20px;
+     width: 240px;
+ }
+ .icon-c11{
+    width: 45px;
+    height: 20px;
+    background-color: #48c479;
+ }
+ .icon-c12{
+   width: 45px;
+   height: 20px;
+   background-color: #db7c38;
+ }
+ .price{
+    display: flex;
+    /* padding-left: 70px; */
+    /* display: inline-block; */
+    color: rgb(66, 64, 64);
+    max-width: 50px ;
+ }
+ .discount{
+    /* display: inline-block; */
+    display: flex;
+    color: rgb(66, 64, 64);
+    margin-right: 5px;
+    /* padding-left: 30px; */
+    max-width: 100px;
+ }
+ .order{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(58, 54, 54);
+ }
+ .order::before:hover{
+    content: "";
+ }
+ .order:hover{
+    box-shadow: 0px 0px 15px 3px rgb(210, 206, 206);
+ }
+
+ .order1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+ }

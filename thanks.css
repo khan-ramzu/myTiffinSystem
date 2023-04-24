@@ -1,0 +1,18 @@
+.go-back-button{
+    margin-top: 80px;
+    height: 40px;
+    /* width: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    /* background-color: black; */
+}
+.in-style{
+    /* color: white; */
+    width: 100px;
+}
+.in-style:hover{
+    /* box-shadow: 0px 0px 15px 3px rgb(210, 206, 206); */
+    /* background-color: black; */
+}
